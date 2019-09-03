@@ -1,0 +1,86 @@
+div.dice{
+    float:center;
+    width:100px;
+    background:#F5F5F5;
+    border:#999 1px solid;
+    padding:10px;
+    font-size:24px;
+    text-align:center;
+    margin:5px;
+    float:left;
+    height:100px;
+}
+
+body {
+    background: #C9FFBF; 
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); 
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+
+#second{
+    position: relative;
+    top: -200;
+    width:45%;
+    float: right;
+
+}
+#second img{
+    position: relative;
+    left: 110px;
+    width: 30%;
+    border:2px solid white;
+    border-radius: 20px;
+}
+#container{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    background-color:  #ADD8E6;
+    width:80%;
+    height:500px;
+/*    border:7px double white;*/
+    box-shadow: 5px 5px 30px #000000;
+    padding: 30 20 30 20px;
+    border-radius: 10px;
+}
+
+
+h1{
+    font-family: livvic;
+    font-size: 75px;
+    color:black
+
+    width: 51%;
+}
+
+#Button{
+    border-radius: 5px;
+    position: relative;
+    transform: translateX(-50%);
+    top:250px;
+    font-family:sans-serif;
+    font-color: black;
+    font-size: 30px;
+    padding: 0 0 0 45px;
+    background-color: #7FFF00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 1px solid white;*
+}
+#Button:hover {
+    letter-spacing: 3px;
+}
+i{
+    transition: transform 0.1s;
+}
+#Button:hover i{
+    transform: rotate(45deg);
+}
